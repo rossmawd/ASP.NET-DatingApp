@@ -24,20 +24,21 @@ namespace DatingApp.API
 
     public IConfiguration Configuration { get; }
 
-    // This method gets called by the runtime. Use this method to add services to the container.
+    // This method gets called by the runtime. 
+    // Whenever we create something that we want to be consumed by another part of our app, we add it as a Service in here
     public void ConfigureServices(IServiceCollection services)
     {
-    
+
       services.AddDbContext<DataContext>(x => x.UseSqlite(
         Configuration.GetConnectionString("Defaultconnection")
       ));
 
-        services.AddControllers();
-        services.AddCors();
-      
+      services.AddControllers();
+      services.AddCors();
+
     }
 
-    // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+    // This method gets called by the runtime. Use this method to configure the HTTP request pipeline. ORDER IS IMPORTANT
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
       if (env.IsDevelopment())
