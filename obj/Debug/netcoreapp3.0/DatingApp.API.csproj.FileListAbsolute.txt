@@ -51,3 +51,5 @@
 /Users/Ross/Development/code/udemy/aspdotnet-dating-app/DatingApp.API/bin/Debug/netcoreapp3.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/Ross/Development/code/udemy/aspdotnet-dating-app/DatingApp.API/obj/Debug/netcoreapp3.0/DatingApp.API.csproj.CopyComplete
 /Users/Ross/Development/code/udemy/aspdotnet-dating-app/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/Ross/Development/code/udemy/aspdotnet-dating-app/DatingApp.API/obj/Debug/netcoreapp3.0/DatingApp.API.csproj.CoreCompileInputs.cache
+/Users/Ross/Development/code/udemy/aspdotnet-dating-app/DatingApp.API/obj/Debug/netcoreapp3.0/DatingApp.API.genruntimeconfig.cache
